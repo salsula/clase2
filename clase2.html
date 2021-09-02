@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Esto es un ejemplo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            function setup() {
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
+                frameRate(1);
+            }
+            function draw() {
+                background(random(0,255), random(0,255), random(0,255));
+            }
+            function windowResized() { 
+                resizeCanvas(windowWidth - 40, windowHeight - 40);
+            } 
+        </script>
+        <style>
+            body{
+                font-family: Consolas, monospace;
+                text-align: center;
+                color: #f9f9f9;
+            }
+
+            .caja{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caja">
+            <h1>Hello friend</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, itaque.</p>
+        </div>
+    </body>
+</html>
