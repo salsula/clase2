@@ -27,7 +27,7 @@ var lorenIpsum = ["pan con huevo","pan con palta","pan con chancho","pan con man
 function setup() {
     noCanvas();
     createElement("h1", elSaludo).parent(elEncabezado).id("title");
-    createA("index.html", "index").parent("vinculos");
+    createA("index.html", "portada").parent("vinculos");
     createA("page.html", "page").parent("vinculos");
     if (dondeEstas) {
         portada();
