@@ -20,13 +20,13 @@ body {
 }
 
 a {
-    color: #666;
+    color: #f9f9f9;
     text-decoration: none;
     margin-right: 3vw;
 }
 
 a:hover {
-    color: #000;
+    color: #fff;
 }
 
 header, main, footer {
