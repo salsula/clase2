@@ -39,11 +39,11 @@ function setup() {
 function portada() {
     createSpan("Estás en index.html").parent("title");
     createElement('p','Me gusta el '+random(lorenIpsum)+'.').parent(loPrincipal);
-    select("a:nth-child(1)").style("font-weight", "bold").style("color", "#0d0d0d");
+    select("a:nth-child(1)").style("font-weight", "bold").style("color", "#555");
 }
 
 function pagina() {
     createSpan("Estás en page.html").parent("title");
     createElement('p','Me gusta el '+random(lorenIpsum)+'.').parent(loPrincipal);
-    select("a:nth-child(2)").style("font-weight", "bold").style("color", "#0d0d0d");
+    select("a:nth-child(2)").style("font-weight", "bold").style("color", "#555");
 }
