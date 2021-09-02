@@ -22,7 +22,7 @@ var elEncabezado = document.querySelector("header");
 
 var loPrincipal = document.querySelector("main");
 
-var lorenIpsum = ["el pan con huevo","pan con palta","pan con chancho","pan con mantequilla","pan con mermelada"];
+var lorenIpsum = ["pan con huevo","pan con palta","pan con chancho","pan con mantequilla","pan con manjar"];
 
 function setup() {
     noCanvas();
