@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --figura: #333333;
-    --fondo: #DDDDDD;
+    --figura: #f9f9f9;
+    --fondo: #1c1c1c;
     /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
 }
 
